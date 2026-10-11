@@ -10,15 +10,15 @@ Summary of Week 01 (W01)
 -------------------------
 The `src/W01` folder contains introductory Java examples covering basic output and escape sequences:
 
-- [`W01E01.java`](Exercise2026/src/W01/W01E01.java) — Basic `println()` - printing simple text messages.
-- [`W01E02.java`](Exercise2026/src/W01/W01E02.java) — Printing numbers and performing basic arithmetic operations.
-- [`W01E03.java`](Exercise2026/src/W01/W01E03.java) — Combining text and numbers using string concatenation.
-- [`W01E04.java`](Exercise2026/src/W01/W01E04.java) — Using `\n` (newline) escape sequence for multi-line output.
-- [`W01E05.java`](Exercise2026/src/W01/W01E05.java) — Using `\t` (tab) escape sequence for formatted columns.
-- [`W01E06.java`](Exercise2026/src/W01/W01E06.java) — Combining `\n` and `\t` escape sequences for structured output.
-- [`W01E07.java`](Exercise2026/src/W01/W01E07.java) — Other escape sequences: `\"` (quotes), `\\` (backslash), and `\'` (single quote).
-- [`W01E08.java`](Exercise2026/src/W01/W01E08.java) — Creating formatted output with escape sequences (student information report).
-- [`W01T01.java`](Exercise2026/src/W01/W01T01.java) — A minimal "Hello World" program (prints "Hello World").
+- [`W01E01.java`](Exercise2026/src/W01/W01E01.java): Basic `println()` - printing simple text messages.
+- [`W01E02.java`](Exercise2026/src/W01/W01E02.java): Printing numbers and performing basic arithmetic operations.
+- [`W01E03.java`](Exercise2026/src/W01/W01E03.java): Combining text and numbers using string concatenation.
+- [`W01E04.java`](Exercise2026/src/W01/W01E04.java): Using `\n` (newline) escape sequence for multi-line output.
+- [`W01E05.java`](Exercise2026/src/W01/W01E05.java): Using `\t` (tab) escape sequence for formatted columns.
+- [`W01E06.java`](Exercise2026/src/W01/W01E06.java): Combining `\n` and `\t` escape sequences for structured output.
+- [`W01E07.java`](Exercise2026/src/W01/W01E07.java): Other escape sequences: `\"` (quotes), `\\` (backslash), and `\'` (single quote).
+- [`W01E08.java`](Exercise2026/src/W01/W01E08.java): Creating formatted output with escape sequences (student information report).
+- [`W01T01.java`](Exercise2026/src/W01/W01T01.java): A minimal "Hello World" program (prints "Hello World").
 
 Summary of Week 02 (W02)
 -------------------------
@@ -129,7 +129,7 @@ The `src/W04` folder contains the repetition examples (Chapter 4, Flow of Contro
 - [`W04E06.java`](Exercise2026/src/W04/W04E06.java): User-confirmation loop: repeat while the user answers y. Try with: 30 y 100 n
 - [`W04E07.java`](Exercise2026/src/W04/W04E07.java): do-while: the body runs first, the condition is tested after it, so the body runs at least once.
 - [`W04E08.java`](Exercise2026/src/W04/W04E08.java): Input validation with do-while: keep asking until the input is valid (W03E19 asked only once).
-- [`W04E09.java`](Exercise2026/src/W04/W04E09.java): while tests first, do-while tests last. When the condition is false from the start,
+- [`W04E09.java`](Exercise2026/src/W04/W04E09.java): while tests first, do-while tests last. When the condition is false from the start, the while body runs 0 times but the do-while body still runs once.
 - [`W04E10.java`](Exercise2026/src/W04/W04E10.java): for puts the start, the condition and the update in one line. A variable declared in the header exists only inside the loop (Try it line).
 - [`W04E11.java`](Exercise2026/src/W04/W04E11.java): The update can be any step: up by 5, down by 2, or through the letters of the alphabet.
 - [`W04E12.java`](Exercise2026/src/W04/W04E12.java): Loop over the characters of a String: index 0 to length() - 1, so the condition is i < length().
@@ -157,6 +157,47 @@ Pull first (VS Code: Source Control > ... > Pull, or `git pull`), then open the 
 | #23 Loop Mistakes and an AI Check | W04E15, W04E16, W04E18 (AI agent: the bug), W04E19 (the fix) | W04E23 |
 
 Self-study (in the lecture slides, not in a video): W04E17 (bus card worked example).
+
+Summary of Week 05 (W05)
+-------------------------
+The `src/W05` folder contains the repetition examples, part 2 (Chapter 4, Flow of Control: Repetition): nested loops, patterns, break and continue (with labels), a GCD case study, numeric errors in loops, a worked example, an AI agent check and a few modern Java features (W05E19 to W05E22), in the same order as the Week 5 lecture. The videos use VS Code (see How to run, Option 1b). W05E20 needs JDK 25; W05E22 needs JDK 23 or later. Files marked INTENTIONALLY FAULTY are there to be found and fixed, not copied.
+
+- [`W05E01.java`](Exercise2026/src/W05/W05E01.java): Nested loops: the inner loop runs completely for every pass of the outer loop. 3 rows x 4 columns = 12 passes.
+- [`W05E02.java`](Exercise2026/src/W05/W05E02.java): A table is a loop inside a loop: the 1 to 9 multiplication table with printf columns.
+- [`W05E03.java`](Exercise2026/src/W05/W05E03.java): Pattern: a right triangle. Plan by rows: row i prints i stars.
+- [`W05E04.java`](Exercise2026/src/W05/W05E04.java): Pattern: a number triangle (row i prints 1 to i), then the upside-down triangle.
+- [`W05E05.java`](Exercise2026/src/W05/W05E05.java): Pattern: a pyramid. Row i prints (height - i) spaces, then (2i - 1) stars.
+- [`W05E06.java`](Exercise2026/src/W05/W05E06.java): Trace a nested loop where the inner loop depends on the outer one (j <= i): predict the total passes (10) before running it.
+- [`W05E07.java`](Exercise2026/src/W05/W05E07.java): break stops the loop at once: the first multiple of 13 above 100 (104), after checking only 4 numbers.
+- [`W05E08.java`](Exercise2026/src/W05/W05E08.java): Loop and a half: while (true) with break in the middle of the body (compare W04E05, the sentinel pattern). Try with: 12.50 3.90 8.00 0
+- [`W05E09.java`](Exercise2026/src/W05/W05E09.java): continue skips the rest of one pass: 1 to 20 without the multiples of 3.
+- [`W05E10.java`](Exercise2026/src/W05/W05E10.java): break vs continue on the same loop, side by side.
+- [`W05E11.java`](Exercise2026/src/W05/W05E11.java): In nested loops a plain break leaves only the inner loop; a labelled break (`break search;`) leaves both. The first pair a < b with a x b = 36.
+- [`W05E12.java`](Exercise2026/src/W05/W05E12.java): A labelled continue goes to the next pass of the outer loop: a seat chart closes the rest of a row at a broken seat.
+- [`W05E13.java`](Exercise2026/src/W05/W05E13.java): Case study: the GCD of 84 and 36, brute force (25 tries) vs Euclid's algorithm (2 steps).
+- [`W05E14.java`](Exercise2026/src/W05/W05E14.java): Numeric error: for fixed decimal steps, control the loop with an int and compute the decimal from it. A double 0.1 step prints 0.30000000000000004 and never reaches 1.0.
+- [`W05E15.java`](Exercise2026/src/W05/W05E15.java): Numeric error: adding 0.01 to 1.00 in two orders, with float and double, gives slightly different sums (exact: 50.5).
+- [`W05E16.java`](Exercise2026/src/W05/W05E16.java): Worked example: a cinema seat chart (rows A to E, seats 1 to 8, an aisle, booked seats X by a rule). IPO and tests planned first.
+- [`W05E17.java`](Exercise2026/src/W05/W05E17.java): INTENTIONALLY FAULTY (for the AI agent check): the agent's nested search uses a plain break, so later rows overwrite the answer and the wrong seat is reported.
+- [`W05E18.java`](Exercise2026/src/W05/W05E18.java): W05E17 fixed with a labelled break: the search stops at the first match (row 3, seat 7).
+- [`W05E19.java`](Exercise2026/src/W05/W05E19.java): Modern Java (Java 11): `String.repeat` builds the W05E05 pyramid with one loop.
+- [`W05E20.java`](Exercise2026/src/W05/W05E20.java): Modern Java (JDK 25): `void main()`, `IO.readln` / `IO.println` and `var` in a loop and a half that reads commands until quit. Needs JDK 25.
+- [`W05E21.java`](Exercise2026/src/W05/W05E21.java): Modern Java (Java 8, `takeWhile` Java 9): streams doing the work of loops: `filter` (similar to continue), `findFirst` (similar to break), `takeWhile` (temperatures until the first reading of 30 or more). Good to know; the labs use for and while.
+- [`W05E22.java`](Exercise2026/src/W05/W05E22.java): Modern Java: the unnamed variable `_` (JDK 22), `Math.clamp` (JDK 21) and a `///` Markdown documentation comment (JDK 23).
+
+Week 05 videos (Programming Essentials)
+---------------------------------------
+Pull first (VS Code: Source Control > ... > Pull, or `git pull`), then open the file shown in the corner of the video. Links are added when the videos are published.
+
+| Video | Files used |
+|---|---|
+| #24 Nested Loops and Patterns | W05E01 to W05E06 |
+| #25 break, continue and Labels | W05E07 to W05E12 |
+| #26 GCD and Numeric Errors in Loops | W05E13 to W05E15 |
+| #27 A Seat Chart and an AI Check | W05E16, W05E17 (AI agent: the bug), W05E18 (the fix) |
+| #28 Loops in Modern Java | W05E19 to W05E22 |
+
+Try it answers are added from W05E23 onward.
 
 How to run
 ----------
