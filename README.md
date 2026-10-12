@@ -184,20 +184,23 @@ The `src/W05` folder contains the repetition examples, part 2 (Chapter 4, Flow o
 - [`W05E20.java`](Exercise2026/src/W05/W05E20.java): Modern Java (JDK 25): `void main()`, `IO.readln` / `IO.println` and `var` in a loop and a half that reads commands until quit. Needs JDK 25.
 - [`W05E21.java`](Exercise2026/src/W05/W05E21.java): Modern Java (Java 8, `takeWhile` Java 9): streams doing the work of loops: `filter` (similar to continue), `findFirst` (similar to break), `takeWhile` (temperatures until the first reading of 30 or more). Good to know; the labs use for and while.
 - [`W05E22.java`](Exercise2026/src/W05/W05E22.java): Modern Java: the unnamed variable `_` (JDK 22), `Math.clamp` (JDK 21) and a `///` Markdown documentation comment (JDK 23).
+- [`W05E23.java`](Exercise2026/src/W05/W05E23.java): Try it answer for video #24 (try it yourself first): a number staircase with 4 rows; row i prints the number i, i times.
+- [`W05E24.java`](Exercise2026/src/W05/W05E24.java): Try it answer for video #25 (try it yourself first): count from 1 to 30, skip every multiple of 4, and stop as soon as the number is greater than 25.
+- [`W05E25.java`](Exercise2026/src/W05/W05E25.java): Try it answer for video #26 (try it yourself first): Euclid's algorithm for the GCD of 252 and 105, counting the steps.
+- [`W05E26.java`](Exercise2026/src/W05/W05E26.java): Try it answer for video #27 (try it yourself first): the seat chart with the rule (r * s) % 5 == 0; predict the free seats first.
+- [`W05E27.java`](Exercise2026/src/W05/W05E27.java): Try it answer for video #28 (try it yourself first): a right-aligned triangle with one loop and String.repeat.
 
 Week 05 videos (Programming Essentials)
 ---------------------------------------
 Pull first (VS Code: Source Control > ... > Pull, or `git pull`), then open the file shown in the corner of the video. Links are added when the videos are published.
 
-| Video | Files used |
-|---|---|
-| #24 Nested Loops and Patterns | W05E01 to W05E06 |
-| #25 break, continue and Labels | W05E07 to W05E12 |
-| #26 GCD and Numeric Errors in Loops | W05E13 to W05E15 |
-| #27 A Seat Chart and an AI Check | W05E16, W05E17 (AI agent: the bug), W05E18 (the fix) |
-| #28 Loops in Modern Java | W05E19 to W05E22 |
-
-Try it answers are added from W05E23 onward.
+| Video | Files used | Try it answer (try first) |
+|---|---|---|
+| #24 Nested Loops and Patterns | W05E01 to W05E06 | W05E23 |
+| #25 break, continue and Labels | W05E07 to W05E12 | W05E24 |
+| #26 GCD and Numeric Errors in Loops | W05E13 to W05E15 | W05E25 |
+| #27 A Seat Chart and an AI Check | W05E16, W05E17 (AI agent: the bug), W05E18 (the fix) | W05E26 |
+| #28 Modern Java Loops | W05E19 to W05E22 | W05E27 |
 
 How to run
 ----------
