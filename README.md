@@ -192,15 +192,15 @@ The `src/W05` folder contains the repetition examples, part 2 (Chapter 4, Flow o
 
 Week 05 videos (Programming Essentials)
 ---------------------------------------
-Pull first (VS Code: Source Control > ... > Pull, or `git pull`), then open the file shown in the corner of the video. Links are added when the videos are published.
+Pull first (VS Code: Source Control > ... > Pull, or `git pull`), then open the file shown in the corner of the video. The videos are public from Sat 31 Oct 2026, 7 PM. Playlist: https://www.youtube.com/playlist?list=PLHpDJHOFvRCU
 
 | Video | Files used | Try it answer (try first) |
 |---|---|---|
-| #24 Nested Loops and Patterns | W05E01 to W05E06 | W05E23 |
-| #25 break, continue and Labels | W05E07 to W05E12 | W05E24 |
-| #26 GCD and Numeric Errors in Loops | W05E13 to W05E15 | W05E25 |
-| #27 A Seat Chart and an AI Check | W05E16, W05E17 (AI agent: the bug), W05E18 (the fix) | W05E26 |
-| #28 Modern Java Loops | W05E19 to W05E22 | W05E27 |
+| [#24 Nested Loops and Patterns](https://youtu.be/t9gdz4lT_bc) | W05E01 to W05E06 | W05E23 |
+| [#25 break, continue and Labels](https://youtu.be/71AgwbBf7JU) | W05E07 to W05E12 | W05E24 |
+| [#26 GCD and Numeric Errors in Loops](https://youtu.be/h7sFPhoupVw) | W05E13 to W05E15 | W05E25 |
+| [#27 A Seat Chart and an AI Check](https://youtu.be/9o6WkdJoaNs) | W05E16, W05E17 (AI agent: the bug), W05E18 (the fix) | W05E26 |
+| [#28 Modern Java Loops](https://youtu.be/2IaC1u2Aduw) | W05E19 to W05E22 | W05E27 |
 
 How to run
 ----------
