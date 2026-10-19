@@ -1,7 +1,7 @@
 package W06;
 
 // The enhanced for reads each element in turn, with no index.
-// Its variable is a copy of the element, so changing it does not change the array; use an index to change elements.
+// Its variable gets a copy of each int, so assigning a new value to it does not change the array; use an index to change elements.
 public class W06E06 {
     public static void main(String[] args) {
         int[] points = {12, 7, 20, 15};

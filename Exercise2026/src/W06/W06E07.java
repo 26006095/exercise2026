@@ -1,7 +1,7 @@
 package W06;
 
 // Total, average and the largest value with its index, in one pass over the array.
-// Start the largest at index 0 (a real element), not at 0.
+// maxIndex starts at 0, so the first comparison uses a real bill, bills[0]. A largest VALUE that starts at 0 fails when every value is negative (W06E24).
 public class W06E07 {
     public static void main(String[] args) {
         String[] months = {"Jan", "Feb", "Mar", "Apr", "May", "Jun"};
