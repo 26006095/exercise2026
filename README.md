@@ -231,6 +231,25 @@ The `src/W06` folder contains the array examples (Chapter 5, Arrays): declaring 
 - [`W06E23.java`](Exercise2026/src/W06/W06E23.java): Worked example: canteen orders, counts per item, best-seller and total sales; IPO, trace and tests in the comments.
 - [`W06E24.java`](Exercise2026/src/W06/W06E24.java): INTENTIONALLY FAULTY (AI agent check): the largest freezer temperature, with `max` starting at 0.
 - [`W06E25.java`](Exercise2026/src/W06/W06E25.java): Fix of W06E24: start `max` at the first element.
+- [`W06E26.java`](Exercise2026/src/W06/W06E26.java): Try it answer for video #29 (try it yourself first): days in each month: February, the last month (length) and the number of months.
+- [`W06E27.java`](Exercise2026/src/W06/W06E27.java): Try it answer for video #30 (try it yourself first): rainfall for 7 days: count the dry days and find the wettest day.
+- [`W06E28.java`](Exercise2026/src/W06/W06E28.java): Try it answer for video #31 (try it yourself first): copy the prices with `Arrays.copyOf`, discount the copy, and show the original is unchanged.
+- [`W06E29.java`](Exercise2026/src/W06/W06E29.java): Try it answer for video #32 (try it yourself first): one pass of selection sort: find the smallest and swap it into index 0.
+- [`W06E30.java`](Exercise2026/src/W06/W06E30.java): Try it answer for video #33 (try it yourself first): a noughts and crosses board in a 2D `char` array: print it and count the X marks.
+- [`W06E31.java`](Exercise2026/src/W06/W06E31.java): Try it answer for video #34 (try it yourself first): count the freezer readings colder than -19 C (expected 2, worked out by hand first).
+
+Week 06 videos (Programming Essentials)
+---------------------------------------
+Pull first (VS Code: Source Control > ... > Pull, or `git pull`), then open the file shown in the corner of the video. Links are added when the videos are published.
+
+| Video | Files used | Try it answer (try first) |
+|---|---|---|
+| #29 Arrays: Declare, Create and Index | W06E01 to W06E05, W06E18 | W06E26 |
+| #30 Processing Arrays: Totals, Largest and Counting | W06E06 to W06E09 | W06E27 |
+| #31 Copying and Comparing Arrays | W06E10 to W06E12 | W06E28 |
+| #32 Searching and Sorting Arrays | W06E13 to W06E17 | W06E29 |
+| #33 2D Arrays: Grids, Totals and Ragged Rows | W06E19 to W06E21 | W06E30 |
+| #34 Array Mistakes and an AI Check | W06E22, W06E24 (AI agent: the bug), W06E25 (the fix) | W06E31 |
 
 How to run
 ----------
