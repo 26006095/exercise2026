@@ -202,6 +202,36 @@ Pull first (VS Code: Source Control > ... > Pull, or `git pull`), then open the 
 | [#27 A Seat Chart and an AI Check](https://youtu.be/9o6WkdJoaNs) | W05E16, W05E17 (AI agent: the bug), W05E18 (the fix) | W05E26 |
 | [#28 Modern Java Loops](https://youtu.be/2IaC1u2Aduw) | W05E19 to W05E22 | W05E27 |
 
+Summary of Week 06 (W06)
+-------------------------
+The `src/W06` folder contains the array examples (Chapter 5, Arrays): declaring and creating arrays, processing them with loops, copying and comparing, searching, sorting, 2D and ragged arrays, a worked example and an AI agent check, in the same order as the Week 6 lecture. Methods come in Week 7, so every example uses `main` only. Files marked INTENTIONALLY FAULTY are there to be found and fixed, not copied.
+
+- [`W06E01.java`](Exercise2026/src/W06/W06E01.java): Why arrays: seven step counts in seven variables vs one array and one loop.
+- [`W06E02.java`](Exercise2026/src/W06/W06E02.java): Declare and create: `new` fills an array with default values (0, 0.0, false, null, character code 0).
+- [`W06E03.java`](Exercise2026/src/W06/W06E03.java): Initialiser list, index from 0, `length`, the last element at `length - 1`, changing one element.
+- [`W06E04.java`](Exercise2026/src/W06/W06E04.java): Out of bounds: check an index typed by the user before using it; the unchecked line (Try it) throws `ArrayIndexOutOfBoundsException`.
+- [`W06E05.java`](Exercise2026/src/W06/W06E05.java): Fill an array from input (parcel weights), then print it with its indexes.
+- [`W06E06.java`](Exercise2026/src/W06/W06E06.java): `for` vs enhanced `for`: the enhanced `for` variable is a copy, so it cannot change the array.
+- [`W06E07.java`](Exercise2026/src/W06/W06E07.java): Total, average and the largest value with its index in one pass (monthly bills).
+- [`W06E08.java`](Exercise2026/src/W06/W06E08.java): Counting with a condition: days hotter than 33.0 C, and which days.
+- [`W06E09.java`](Exercise2026/src/W06/W06E09.java): An array as counters: 600 dice rolls tallied in `count[face]` (fixed seed).
+- [`W06E10.java`](Exercise2026/src/W06/W06E10.java): Reference vs copy: `alias = a` vs a loop copy, `Arrays.copyOf` and `System.arraycopy`.
+- [`W06E11.java`](Exercise2026/src/W06/W06E11.java): `==` vs `Arrays.equals`; printing an array directly vs `Arrays.toString`; `Arrays.fill`.
+- [`W06E12.java`](Exercise2026/src/W06/W06E12.java): Moving elements in place: rotate a playlist left, reverse an array with two indexes.
+- [`W06E13.java`](Exercise2026/src/W06/W06E13.java): Linear search with a `found` index and `break` (book codes).
+- [`W06E14.java`](Exercise2026/src/W06/W06E14.java): Binary search on a sorted array, with a low, mid, high trace.
+- [`W06E15.java`](Exercise2026/src/W06/W06E15.java): Selection sort, printed after every pass.
+- [`W06E16.java`](Exercise2026/src/W06/W06E16.java): Bubble sort with an early stop when a pass makes no swap.
+- [`W06E17.java`](Exercise2026/src/W06/W06E17.java): The library way: `Arrays.sort` and `Arrays.binarySearch` (negative when not found).
+- [`W06E18.java`](Exercise2026/src/W06/W06E18.java): `String[] args` in `main`, and `split` returns an array.
+- [`W06E19.java`](Exercise2026/src/W06/W06E19.java): 2D array: the W05E16 seat chart stored in `boolean[5][8]`; `booked.length` and `booked[r].length`.
+- [`W06E20.java`](Exercise2026/src/W06/W06E20.java): Row and column totals of a table (rainfall for 3 towns over 4 weeks).
+- [`W06E21.java`](Exercise2026/src/W06/W06E21.java): Ragged arrays: rows of different length (cafe orders per table).
+- [`W06E22.java`](Exercise2026/src/W06/W06E22.java): Three array mistakes: a `null` array (Try it), an alias that is not a backup, and the wrong bound in a 2D loop.
+- [`W06E23.java`](Exercise2026/src/W06/W06E23.java): Worked example: canteen orders, counts per item, best-seller and total sales; IPO, trace and tests in the comments.
+- [`W06E24.java`](Exercise2026/src/W06/W06E24.java): INTENTIONALLY FAULTY (AI agent check): the largest freezer temperature, with `max` starting at 0.
+- [`W06E25.java`](Exercise2026/src/W06/W06E25.java): Fix of W06E24: start `max` at the first element.
+
 How to run
 ----------
 
