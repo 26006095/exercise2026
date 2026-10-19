@@ -18,5 +18,6 @@ public class W03E11 {
         System.out.println("pear".compareTo("pear"));         // zero: same text
         System.out.println("Zebra".compareTo("apple"));       // negative: 'Z' (90) comes before 'a' (97)
         System.out.println("Zebra".compareToIgnoreCase("apple")); // positive: apple comes first
+        in.close();
     }
 }

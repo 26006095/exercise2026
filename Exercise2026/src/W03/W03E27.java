@@ -24,5 +24,6 @@ public class W03E27 {
                 System.out.printf("Fare: RM %.2f%n", 4.00);
             }
         }
+        in.close();
     }
 }

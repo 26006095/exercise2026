@@ -12,5 +12,6 @@ public class W02E27 {
         double height = in.nextDouble();
         double bmi = weight / (height * height);
         System.out.printf("BMI = %.2f%n", bmi);
+        in.close();
     }
 }

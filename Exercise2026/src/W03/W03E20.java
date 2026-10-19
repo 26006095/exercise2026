@@ -23,5 +23,6 @@ public class W03E20 {
             System.out.println("Error: parcels over 10 kg are not accepted.");
         }
         // Test: 0, 0.5, 1, 1.01, 5, 5.01, 10, 10.01
+        in.close();
     }
 }

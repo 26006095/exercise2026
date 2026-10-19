@@ -24,5 +24,6 @@ public class W03E09 {
         System.out.println("Grade: " + grade);
         // Test both sides of every boundary: 39 and 40, 49 and 50, 59 and 60, 79 and 80.
         // Try it: move the "mark >= 40" test to the top. Why does a mark of 95 now get D?
+        in.close();
     }
 }

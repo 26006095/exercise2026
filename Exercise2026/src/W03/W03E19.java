@@ -19,5 +19,6 @@ public class W03E19 {
                 System.out.println("Mark accepted: " + mark);
             }
         }
+        in.close();
     }
 }

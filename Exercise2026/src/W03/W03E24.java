@@ -16,5 +16,6 @@ public class W03E24 {
         } else {
             System.out.println("Charge now");
         }
+        in.close();
     }
 }

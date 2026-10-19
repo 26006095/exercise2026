@@ -12,5 +12,6 @@ public class W02E19 {
         System.out.print("Name: ");
         String name = in.nextLine();
         System.out.println("[" + name + "] is " + age);
+        in.close();
     }
 }

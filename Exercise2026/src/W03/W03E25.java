@@ -13,5 +13,6 @@ public class W03E25 {
         } else {
             System.out.println("Invalid");
         }
+        in.close();
     }
 }

@@ -11,5 +11,6 @@ public class W02E31 {
         System.out.println("mark = " + mark);
         int clamped = Math.clamp(mark, 0, 100);
         System.out.println("clamped = " + clamped + " (hides the bad mark)");
+        in.close();
     }
 }

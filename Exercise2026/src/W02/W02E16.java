@@ -9,5 +9,6 @@ public class W02E16 {
         System.out.print("Enter a number: ");
         int num = in.nextInt();
         System.out.println("The number is " + num);
+        in.close();
     }
 }

@@ -15,5 +15,6 @@ public class W03E12 {
         } else {
             System.out.println("Please answer y or n");
         }
+        in.close();
     }
 }

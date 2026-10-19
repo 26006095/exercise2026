@@ -147,14 +147,14 @@ The `src/W04` folder contains the repetition examples (Chapter 4, Flow of Contro
 
 Week 04 videos (Programming Essentials)
 ---------------------------------------
-Pull first (VS Code: Source Control > ... > Pull, or `git pull`), then open the file shown in the corner of the video. The videos are public from Saturday 24 October 2026, 7 PM.
+Pull first (VS Code: Source Control > ... > Pull, or `git pull`), then open the file shown in the corner of the video. Links are added when the videos are published.
 
 | Video | Files used | Try it answer (try first) |
 |---|---|---|
-| [#20 while Loops and Tracing](https://youtu.be/_uGscHGTRB0) | W04E01 to W04E04 | W04E20 |
-| [#21 Stopping a Loop: Sentinel, Yes/No, do-while, Safe Input](https://youtu.be/G3jM-xdFwVw) | W04E05 to W04E09 | W04E21 |
-| [#22 for Loops, Choosing a Loop, Guessing Game](https://youtu.be/7_gdlAP7SoE) | W04E10 to W04E14 | W04E22 |
-| [#23 Loop Mistakes and an AI Check](https://youtu.be/ckwJhZjnCq0) | W04E15, W04E16, W04E18 (AI agent: the bug), W04E19 (the fix) | W04E23 |
+| #20 while Loops and Tracing | W04E01 to W04E04 | W04E20 |
+| #21 Stopping a Loop: Sentinel, Yes/No, do-while, Safe Input | W04E05 to W04E09 | W04E21 |
+| #22 for Loops, Choosing a Loop, Guessing Game | W04E10 to W04E14 | W04E22 |
+| #23 Loop Mistakes and an AI Check | W04E15, W04E16, W04E18 (AI agent: the bug), W04E19 (the fix) | W04E23 |
 
 Self-study (in the lecture slides, not in a video): W04E17 (bus card worked example).
 
@@ -192,15 +192,15 @@ The `src/W05` folder contains the repetition examples, part 2 (Chapter 4, Flow o
 
 Week 05 videos (Programming Essentials)
 ---------------------------------------
-Pull first (VS Code: Source Control > ... > Pull, or `git pull`), then open the file shown in the corner of the video. The videos are public from Sat 31 Oct 2026, 7 PM. Playlist: https://www.youtube.com/playlist?list=PLHpDJHOFvRCU
+Pull first (VS Code: Source Control > ... > Pull, or `git pull`), then open the file shown in the corner of the video. Links are added when the videos are published.
 
 | Video | Files used | Try it answer (try first) |
 |---|---|---|
-| [#24 Nested Loops and Patterns](https://youtu.be/t9gdz4lT_bc) | W05E01 to W05E06 | W05E23 |
-| [#25 break, continue and Labels](https://youtu.be/71AgwbBf7JU) | W05E07 to W05E12 | W05E24 |
-| [#26 GCD and Numeric Errors in Loops](https://youtu.be/h7sFPhoupVw) | W05E13 to W05E15 | W05E25 |
-| [#27 A Seat Chart and an AI Check](https://youtu.be/9o6WkdJoaNs) | W05E16, W05E17 (AI agent: the bug), W05E18 (the fix) | W05E26 |
-| [#28 Modern Java Loops](https://youtu.be/2IaC1u2Aduw) | W05E19 to W05E22 | W05E27 |
+| #24 Nested Loops and Patterns | W05E01 to W05E06 | W05E23 |
+| #25 break, continue and Labels | W05E07 to W05E12 | W05E24 |
+| #26 GCD and Numeric Errors in Loops | W05E13 to W05E15 | W05E25 |
+| #27 A Seat Chart and an AI Check | W05E16, W05E17 (AI agent: the bug), W05E18 (the fix) | W05E26 |
+| #28 Modern Java Loops | W05E19 to W05E22 | W05E27 |
 
 Summary of Week 06 (W06)
 -------------------------
@@ -240,16 +240,16 @@ The `src/W06` folder contains the array examples (Chapter 5, Arrays): declaring 
 
 Week 06 videos (Programming Essentials)
 ---------------------------------------
-Pull first (VS Code: Source Control > ... > Pull, or `git pull`), then open the file shown in the corner of the video. The videos are public from Sat 7 Nov 2026, 7 PM. Playlist: https://www.youtube.com/playlist?list=PLHpDJHOFvRCU
+Pull first (VS Code: Source Control > ... > Pull, or `git pull`), then open the file shown in the corner of the video. Links are added when the videos are published.
 
 | Video | Files used | Try it answer (try first) |
 |---|---|---|
-| [#29 Arrays: Declare, Create and Index](https://youtu.be/jbxSpCb_RsY) | W06E01 to W06E05, W06E18 | W06E26 |
-| [#30 Processing Arrays: Totals, Largest and Counting](https://youtu.be/MQPcIOevNY4) | W06E06 to W06E09 | W06E27 |
-| [#31 Copying and Comparing Arrays](https://youtu.be/9Ec5qDVrL6o) | W06E10 to W06E12 | W06E28 |
-| [#32 Searching and Sorting Arrays](https://youtu.be/AD2fNOqj7o0) | W06E13 to W06E17 | W06E29 |
-| [#33 2D Arrays: Grids, Totals and Ragged Rows](https://youtu.be/dicHiSXaR8I) | W06E19 to W06E21 | W06E30 |
-| [#34 Array Mistakes and an AI Check](https://youtu.be/SSm0D5_X_NY) | W06E22, W06E24 (AI agent: the bug), W06E25 (the fix) | W06E31 |
+| #29 Arrays: Declare, Create and Index | W06E01 to W06E05, W06E18 | W06E26 |
+| #30 Processing Arrays: Totals, Largest and Counting | W06E06 to W06E09 | W06E27 |
+| #31 Copying and Comparing Arrays | W06E10 to W06E12 | W06E28 |
+| #32 Searching and Sorting Arrays | W06E13 to W06E17 | W06E29 |
+| #33 2D Arrays: Grids, Totals and Ragged Rows | W06E19 to W06E21 | W06E30 |
+| #34 Array Mistakes and an AI Check | W06E22, W06E24 (AI agent: the bug), W06E25 (the fix) | W06E31 |
 
 How to run
 ----------

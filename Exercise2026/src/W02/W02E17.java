@@ -11,5 +11,6 @@ public class W02E17 {
         String rest = in.nextLine();
         System.out.println("next()     : [" + first + "]");
         System.out.println("nextLine() : [" + rest + "]");
+        in.close();
     }
 }
