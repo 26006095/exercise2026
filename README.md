@@ -240,16 +240,16 @@ The `src/W06` folder contains the array examples (Chapter 5, Arrays): declaring 
 
 Week 06 videos (Programming Essentials)
 ---------------------------------------
-Pull first (VS Code: Source Control > ... > Pull, or `git pull`), then open the file shown in the corner of the video. Links are added when the videos are published.
+Pull first (VS Code: Source Control > ... > Pull, or `git pull`), then open the file shown in the corner of the video. The videos are public from Sat 7 Nov 2026, 7 PM. Playlist: https://www.youtube.com/playlist?list=PLHpDJHOFvRCU
 
 | Video | Files used | Try it answer (try first) |
 |---|---|---|
-| #29 Arrays: Declare, Create and Index | W06E01 to W06E05, W06E18 | W06E26 |
-| #30 Processing Arrays: Totals, Largest and Counting | W06E06 to W06E09 | W06E27 |
-| #31 Copying and Comparing Arrays | W06E10 to W06E12 | W06E28 |
-| #32 Searching and Sorting Arrays | W06E13 to W06E17 | W06E29 |
-| #33 2D Arrays: Grids, Totals and Ragged Rows | W06E19 to W06E21 | W06E30 |
-| #34 Array Mistakes and an AI Check | W06E22, W06E24 (AI agent: the bug), W06E25 (the fix) | W06E31 |
+| [#29 Arrays: Declare, Create and Index](https://youtu.be/jbxSpCb_RsY) | W06E01 to W06E05, W06E18 | W06E26 |
+| [#30 Processing Arrays: Totals, Largest and Counting](https://youtu.be/MQPcIOevNY4) | W06E06 to W06E09 | W06E27 |
+| [#31 Copying and Comparing Arrays](https://youtu.be/9Ec5qDVrL6o) | W06E10 to W06E12 | W06E28 |
+| [#32 Searching and Sorting Arrays](https://youtu.be/AD2fNOqj7o0) | W06E13 to W06E17 | W06E29 |
+| [#33 2D Arrays: Grids, Totals and Ragged Rows](https://youtu.be/dicHiSXaR8I) | W06E19 to W06E21 | W06E30 |
+| [#34 Array Mistakes and an AI Check](https://youtu.be/SSm0D5_X_NY) | W06E22, W06E24 (AI agent: the bug), W06E25 (the fix) | W06E31 |
 
 How to run
 ----------
