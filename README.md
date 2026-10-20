@@ -102,6 +102,8 @@ The `src/W03` folder contains the selection examples (Chapter 3, Flow of Control
 - [`W03E25.java`](Exercise2026/src/W03/W03E25.java): Try it answer for video #17 (try it yourself first): check a voucher code, ignoring upper and lower case.
 - [`W03E26.java`](Exercise2026/src/W03/W03E26.java): Try it answer for video #18 (try it yourself first): a traffic light with a switch expression and a default.
 - [`W03E27.java`](Exercise2026/src/W03/W03E27.java): Try it answer for video #19 (try it yourself first): bus fare by distance, with safe input.
+- [`W03T06.java`](Exercise2026/src/W03/W03T06.java): Tutorial 2, question 6 (solved in the T2 tutorial, 20 Oct 2026): read the diameter, print the circumference with `Math.PI`, three decimal places.
+- [`W03T07.java`](Exercise2026/src/W03/W03T07.java): Tutorial 2, question 7 (solved in the T2 tutorial, 20 Oct 2026): convert inches to meters (1 inch = 2.54 cm), two decimal places.
 
 Week 03 videos (Programming Essentials)
 ---------------------------------------
