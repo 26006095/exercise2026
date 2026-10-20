@@ -283,6 +283,25 @@ The `src/W07` folder contains the Java methods examples (Chapter 6, Java Methods
 - [`W07E26.java`](Exercise2026/src/W07/W07E26.java): Worked example: a weekly pay slip with overtime; IPO and tests in the comments.
 - [`W07E27.java`](Exercise2026/src/W07/W07E27.java): INTENTIONALLY FAULTY (AI agent check): a `swap(int a, int b)` method that changes nothing.
 - [`W07E28.java`](Exercise2026/src/W07/W07E28.java): Fix of W07E27: swap two elements of an array.
+- [`W07E29.java`](Exercise2026/src/W07/W07E29.java): Try it answer for video #35 (try it yourself first): a method `tip(bill, percent)` that returns the tip, for a RM48.00 bill at 10% and 15%.
+- [`W07E30.java`](Exercise2026/src/W07/W07E30.java): Try it answer for video #36 (try it yourself first): predict, then run: a parameter `n` and an array parameter `a` changed inside a method.
+- [`W07E31.java`](Exercise2026/src/W07/W07E31.java): Try it answer for video #37 (try it yourself first): two overloaded methods called `label`: `label(3)` gives "3 items"; `label(3, "kg")` gives "3 kg".
+- [`W07E32.java`](Exercise2026/src/W07/W07E32.java): Try it answer for video #38 (try it yourself first): `countAbove(a, limit)` returns how many bus delays are above 10 minutes (expected 2).
+- [`W07E33.java`](Exercise2026/src/W07/W07E33.java): Try it answer for video #39 (try it yourself first): the largest element found with recursion, `maxFrom(a, i)`; the base case is the last element.
+- [`W07E34.java`](Exercise2026/src/W07/W07E34.java): Try it answer for video #40 (try it yourself first): a method that returns a switch expression: `dayType(1)` to `dayType(5)` give "weekday"; 6 and 7 give "weekend".
+
+Week 07 videos (Programming Essentials)
+---------------------------------------
+Pull first (VS Code: Source Control > ... > Pull, or `git pull`), then open the file shown in the corner of the video. Links are added when the videos are published. W07E26 (worked example: pay slip) is for self-study.
+
+| Video | Files used | Try it answer (try first) |
+|---|---|---|
+| #35 Defining and Calling Methods | W07E01 to W07E04 | W07E29 |
+| #36 How Method Calls Work: Stack, Pass-by-Value and Scope | W07E05 to W07E08, W07E19 | W07E30 |
+| #37 Designing with Methods: Abstraction, Overloading and Documentation | W07E09 to W07E12 | W07E31 |
+| #38 Methods and Arrays | W07E13 to W07E18 | W07E32 |
+| #39 Recursion | W07E20 to W07E23 | W07E33 |
+| #40 Modern Java Methods and an AI Check | W07E24, W07E25, W07E27 (AI agent: the bug), W07E28 (the fix) | W07E34 |
 
 How to run
 ----------
