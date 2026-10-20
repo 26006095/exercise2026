@@ -251,6 +251,39 @@ Pull first (VS Code: Source Control > ... > Pull, or `git pull`), then open the 
 | #33 2D Arrays: Grids, Totals and Ragged Rows | W06E19 to W06E21 | W06E30 |
 | #34 Array Mistakes and an AI Check | W06E22, W06E24 (AI agent: the bug), W06E25 (the fix) | W06E31 |
 
+Summary of Week 07 (W07)
+-------------------------
+The `src/W07` folder contains the Java methods examples (Chapter 6, Java Methods), with arrays and methods, recursion and a few modern Java features (W07E24, W07E25), in the same order as the Week 7 lecture. Files marked INTENTIONALLY FAULTY are there to be found and fixed, not copied.
+
+- [`W07E01.java`](Exercise2026/src/W07/W07E01.java): Why methods: the same receipt header copied three times.
+- [`W07E02.java`](Exercise2026/src/W07/W07E02.java): Define a method once and call it many times: `printHeader()`.
+- [`W07E03.java`](Exercise2026/src/W07/W07E03.java): Parameters: `printRow(item, qty, price)`; arguments must match in number, order and type (Try it: wrong order).
+- [`W07E04.java`](Exercise2026/src/W07/W07E04.java): Return values: the Week 2 BMI as `bmi(kg, m)`.
+- [`W07E05.java`](Exercise2026/src/W07/W07E05.java): The call stack: main calls checkIn, checkIn calls printBadge (enter and leave lines).
+- [`W07E06.java`](Exercise2026/src/W07/W07E06.java): Pass-by-value: changing a parameter changes only the method's copy.
+- [`W07E07.java`](Exercise2026/src/W07/W07E07.java): Scope: local variables with the same name in two methods; a loop variable used after the loop (Try it).
+- [`W07E08.java`](Exercise2026/src/W07/W07E08.java): A boolean method with early return: `isValidMark(mark)`.
+- [`W07E09.java`](Exercise2026/src/W07/W07E09.java): Method abstraction: a coffee order built from small methods.
+- [`W07E10.java`](Exercise2026/src/W07/W07E10.java): Overloading: `shippingCost(kg)` and `shippingCost(kg, express)`.
+- [`W07E11.java`](Exercise2026/src/W07/W07E11.java): A documentation comment with precondition, postcondition, @param and @return.
+- [`W07E12.java`](Exercise2026/src/W07/W07E12.java): Library methods (Math, Integer.parseInt) and a method from another class (`W07E04.bmi`).
+- [`W07E13.java`](Exercise2026/src/W07/W07E13.java): An array as a parameter: `total` and `average`.
+- [`W07E14.java`](Exercise2026/src/W07/W07E14.java): A method can change the caller's array elements, but giving the parameter a new array does not affect the caller.
+- [`W07E15.java`](Exercise2026/src/W07/W07E15.java): Returning a new array: `copyAndScale`.
+- [`W07E16.java`](Exercise2026/src/W07/W07E16.java): Linear search as a method that returns the index or -1.
+- [`W07E17.java`](Exercise2026/src/W07/W07E17.java): A 2D array as a parameter: `rowTotals` of the rainfall table.
+- [`W07E18.java`](Exercise2026/src/W07/W07E18.java): Variable-length arguments: `sum(int... nums)`.
+- [`W07E19.java`](Exercise2026/src/W07/W07E19.java): Three method mistakes the compiler catches (Try it lines).
+- [`W07E20.java`](Exercise2026/src/W07/W07E20.java): Recursion: `countdown(n)` with a base case.
+- [`W07E21.java`](Exercise2026/src/W07/W07E21.java): A recursive method that returns a value: `power(base, exp)` with a call trace.
+- [`W07E22.java`](Exercise2026/src/W07/W07E22.java): Recursion on arrays: a recursive sum and a recursive binary search.
+- [`W07E23.java`](Exercise2026/src/W07/W07E23.java): Recursion or a loop; no base case gives StackOverflowError (Try it).
+- [`W07E24.java`](Exercise2026/src/W07/W07E24.java): Good to know: a method that returns a switch expression (Java 14) and `///` Markdown documentation comments (JDK 23).
+- [`W07E25.java`](Exercise2026/src/W07/W07E25.java): Good to know: methods as values, a method reference and a lambda (Java 8).
+- [`W07E26.java`](Exercise2026/src/W07/W07E26.java): Worked example: a weekly pay slip with overtime; IPO and tests in the comments.
+- [`W07E27.java`](Exercise2026/src/W07/W07E27.java): INTENTIONALLY FAULTY (AI agent check): a `swap(int a, int b)` method that changes nothing.
+- [`W07E28.java`](Exercise2026/src/W07/W07E28.java): Fix of W07E27: swap two elements of an array.
+
 How to run
 ----------
 
