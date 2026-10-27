@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.PrintWriter;
+import java.util.Locale;
 import java.util.Scanner;
 
 // Read simple comma-separated records (a CSV file without quotes): each line is date,steps,km.
@@ -29,9 +30,9 @@ public class W09E08 {
             totalSteps += steps;
             totalKm += km;
             days++;
-            System.out.printf("%-4s %6d steps %5.1f km%n", part[0], steps, km);
+            System.out.printf(Locale.ROOT, "%-4s %6d steps %5.1f km%n", part[0], steps, km);
         }
         in.close();
-        System.out.printf("Total %6d steps %5.1f km in %d days%n", totalSteps, totalKm, days);
+        System.out.printf(Locale.ROOT, "Total %6d steps %5.1f km in %d days%n", totalSteps, totalKm, days);
     }
 }

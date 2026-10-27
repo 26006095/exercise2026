@@ -20,17 +20,35 @@ public class W09E24 {
         }
     }
 
+    // a real amount from 0.01 to 10000 (rejects NaN and Infinity); it is saved with 2 decimal places
+    static boolean validAmount(double amount) {
+        return Double.isFinite(amount) && amount >= 0.01 && amount <= 10000;
+    }
+
+    // one amount in the file, written with a dot, and nothing else on that field
+    static boolean isAmount(String text) {
+        try (Scanner s = new Scanner(text.trim()).useLocale(Locale.ROOT)) {
+            if (!s.hasNextDouble()) {
+                return false;
+            }
+            double amount = s.nextDouble();
+            return !s.hasNext() && validAmount(amount);
+        }
+    }
+
     static double showAll() throws FileNotFoundException {
         double total = 0;
         try (Scanner in = new Scanner(new File(FILE))) {
             while (in.hasNextLine()) {
-                String[] part = in.nextLine().split(",", -1);
-                if (part.length != 2) {
-                    continue;                                       // skip a damaged line
+                String line = in.nextLine();
+                String[] part = line.split(",", -1);
+                if (part.length != 2 || !isAmount(part[1])) {
+                    System.out.println("Skipped a damaged line: " + line);
+                    continue;
                 }
                 double amount = Double.parseDouble(part[1]);
                 total += amount;
-                System.out.printf("%-14s RM %7.2f%n", part[0], amount);
+                System.out.printf(Locale.ROOT, "%-14s RM %7.2f%n", part[0], amount);
             }
         }
         return total;
@@ -48,12 +66,12 @@ public class W09E24 {
         }
         double amount = kb.nextDouble();
         kb.close();
-        if (item.isEmpty() || amount <= 0 || amount > 10000) {
+        if (item.isEmpty() || !validAmount(amount)) {
             System.out.println("Enter an item name and an amount from 0.01 to 10000.");
             return;
         }
         addExpense(item, amount);
         double total = showAll();
-        System.out.printf("%-14s RM %7.2f%n", "Total", total);
+        System.out.printf(Locale.ROOT, "%-14s RM %7.2f%n", "Total", total);
     }
 }

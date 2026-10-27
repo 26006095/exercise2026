@@ -29,7 +29,7 @@ public class W09E09 {
             String line = in.nextLine();
             lineNo++;
             String[] part = line.split(",", -1);         // -1 keeps empty fields
-            if (part.length != 3 || !isSteps(part[1]) || !isKm(part[2])) {
+            if (part.length != 3 || part[0].isBlank() || !isSteps(part[1]) || !isKm(part[2])) {
                 System.out.println("Line " + lineNo + " skipped: " + line);
                 continue;
             }
@@ -39,25 +39,25 @@ public class W09E09 {
         System.out.println("Total steps of the good lines: " + totalSteps);
     }
 
-    // steps must be a whole number from 0 to 100000
+    // steps must be ONE whole number from 0 to 100000 and nothing else
     static boolean isSteps(String text) {
-        try (Scanner s = new Scanner(text.trim())) {
+        try (Scanner s = new Scanner(text.trim()).useLocale(Locale.ROOT)) {
             if (!s.hasNextInt()) {                       // false for "abc" and for numbers too big for an int
                 return false;
             }
             int steps = s.nextInt();
-            return steps >= 0 && steps <= 100000;
+            return !s.hasNext() && steps >= 0 && steps <= 100000;   // !s.hasNext(): no extra words such as "8200 junk"
         }
     }
 
-    // km must be a number from 0 to 100 (a dot as the decimal point, whatever the computer's language)
+    // km must be ONE number from 0 to 100 (a dot as the decimal point, whatever the computer's language)
     static boolean isKm(String text) {
         try (Scanner s = new Scanner(text.trim()).useLocale(Locale.ROOT)) {
             if (!s.hasNextDouble()) {
                 return false;
             }
             double km = s.nextDouble();
-            return km >= 0 && km <= 100;
+            return !s.hasNext() && km >= 0 && km <= 100;
         }
     }
 }

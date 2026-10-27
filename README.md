@@ -341,10 +341,10 @@ The `src/W09` folder contains the file input and output examples (Chapter 7, Fil
 - [`W09E18.java`](Exercise2026/src/W09/W09E18.java): Optional preview (objects come in Week 10): save a whole array with `writeObject` and read it back with `readObject` and a cast.
 - [`W09E19.java`](Exercise2026/src/W09/W09E19.java): The `File` class: `createNewFile`, `getName`, `getPath`, `exists`, `isFile`, `isDirectory`, `length`, `canRead`, `canWrite`, `lastModified`.
 - [`W09E20.java`](Exercise2026/src/W09/W09E20.java): Folders: `mkdirs()`, `listFiles()` (checked for `null`), `isDirectory()`.
-- [`W09E21.java`](Exercise2026/src/W09/W09E21.java): Rename and delete inside its own `w09_demo` folder: `renameTo()` and `delete()` return true or false; the program checks the result before going on.
+- [`W09E21.java`](Exercise2026/src/W09/W09E21.java): Rename and delete two demo files in its own `w09_demo` folder (it stops if either is already there): `renameTo()` and `delete()` return true or false; the program checks the result before going on.
 - [`W09E22.java`](Exercise2026/src/W09/W09E22.java): Common mistakes: `new Scanner("marks.txt")` reads the text, not the file; a missing file (check `exists()` first). Try it: open a missing file.
 - [`W09E23.java`](Exercise2026/src/W09/W09E23.java): Modern Java (good to know): `Path.of`, `Files.writeString`, `Files.readString`, `Files.readAllLines`, `Files.size` (Java 7 and 11), with a text block.
-- [`W09E24.java`](Exercise2026/src/W09/W09E24.java): Worked example: an expense tracker that appends to `expenses.csv` (always with a dot as the decimal point) and shows all expenses and the total; input checked; IPO in the comments.
+- [`W09E24.java`](Exercise2026/src/W09/W09E24.java): Worked example: an expense tracker that appends to `expenses.csv` (always with a dot as the decimal point) and shows all expenses and the total; the typed amount and every saved amount are checked (damaged lines are skipped); IPO in the comments.
 - [`W09E25.java`](Exercise2026/src/W09/W09E25.java): INTENTIONALLY FAULTY (AI agent check): saves three names and reads them back, but reads 0 names.
 - [`W09E26.java`](Exercise2026/src/W09/W09E26.java): Fix of W09E25: close the writer (try-with-resources) before reading the file.
 
@@ -355,8 +355,8 @@ Planned for Sat 5 Dec 2026. Links are added when the videos are published.
 | Video | Files used | Try it answer (try first) |
 |---|---|---|
 | #41 Why Files? Writing Your First Text File | W09E01 to W09E05 | to come |
-| #42 Reading Text Files: Lines, Numbers and CSV | W09E06 to W09E10 | to come |
-| #43 Buffered I/O, try-with-resources and File Methods | W09E11 to W09E13 | to come |
+| #42 Reading Text Files: Lines, Numbers and CSV | W09E06 to W09E09 | to come |
+| #43 Buffered I/O, try-with-resources and File Methods | W09E10 to W09E13 | to come |
 | #44 Binary Files: Saving and Loading Data | W09E14 to W09E18 | to come |
 | #45 The File Class, Modern Files API and an AI Check | W09E19 to W09E23, W09E25 (AI agent: the bug), W09E26 (the fix) | to come |
 
