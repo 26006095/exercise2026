@@ -152,6 +152,9 @@ The `src/W04` folder contains the repetition examples (Chapter 4, Flow of Contro
 - [`W04E21.java`](Exercise2026/src/W04/W04E21.java): Try it answer for video #21 (try it yourself first): read words until the user types stop, then print how many words were typed.
 - [`W04E22.java`](Exercise2026/src/W04/W04E22.java): Try it answer for video #22 (try it yourself first): with a for loop, print every fourth year from 2028 to 2048, then how many years were printed.
 - [`W04E23.java`](Exercise2026/src/W04/W04E23.java): Try it answer for video #23 (try it yourself first): a countdown 5 4 3 2 1 Lift off!, checking the first and the last pass.
+- [`W04L02.java`](Exercise2026/src/W04/W04L02.java): Lab 3, question 2: a random integer from 0 to 5 shown in words (for example, 2 is two). Answer by [Wong Yik Sheng (@tms-tm)](https://github.com/tms-tm), accepted from [PR #23](https://github.com/WIX1002-1-2018/exercise2026/pull/23).
+- [`W04L03.java`](Exercise2026/src/W04/W04L03.java): Lab 3, question 3: commission from the sales volume (5%, 7.5%, 10% or 12.5%), two decimal places. Answer by [Elin Lim Yok Ling (@26006095)](https://github.com/26006095), accepted from [PR #25](https://github.com/WIX1002-1-2018/exercise2026/pull/25).
+- [`W04L04.java`](Exercise2026/src/W04/W04L04.java): Lab 3, question 4: a two-player dice game; each player rolls twice and the higher total wins (a tie is handled). Answer by [Tan Yong Sheng (@Ystan35)](https://github.com/Ystan35), accepted from [PR #26](https://github.com/WIX1002-1-2018/exercise2026/pull/26).
 
 Week 04 videos (Programming Essentials)
 ---------------------------------------
