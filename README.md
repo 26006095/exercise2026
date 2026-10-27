@@ -317,6 +317,49 @@ Pull first (VS Code: Source Control > ... > Pull, or `git pull`), then open the 
 | #39 Recursion | W07E20 to W07E23 | W07E33 |
 | #40 Modern Java Methods and an AI Check | W07E24, W07E25, W07E27 (AI agent: the bug), W07E28 (the fix) | W07E34 |
 
+Summary of Week 09 (W09)
+-------------------------
+The `src/W09` folder contains the file input and output examples (Chapter 7, File Input and Output): text files, CSV data, buffered I/O, binary files, the `File` class and a modern `java.nio.file` example, in the same order as the Week 9 lecture. Each program makes its own sample data, so any file runs on its own. The data files are created in the working folder (NetBeans: `Exercise2026/`; VS Code: the repository folder) and are ignored by Git.
+
+- [`W09E01.java`](Exercise2026/src/W09/W09E01.java): Why files: a value in a variable is lost when the program ends; save it to `steps.txt` with `PrintWriter`.
+- [`W09E02.java`](Exercise2026/src/W09/W09E02.java): Write a text file: `PrintWriter` + `FileOutputStream`, with `println` and `printf` (attendance list).
+- [`W09E03.java`](Exercise2026/src/W09/W09E03.java): Where did the file go? The working folder (NetBeans: the project folder; VS Code: the opened folder), `getAbsolutePath()`, and `/` or `\\` in paths.
+- [`W09E04.java`](Exercise2026/src/W09/W09E04.java): Overwrite or append: `new FileOutputStream(name, true)` adds to the end. Run it two or three times.
+- [`W09E05.java`](Exercise2026/src/W09/W09E05.java): Forgetting `close()`: the file stays empty (0 bytes) until it is closed. Try it: remove `close()`.
+- [`W09E06.java`](Exercise2026/src/W09/W09E06.java): Read a text file line by line: `Scanner` on a `File`, `hasNextLine()`, `nextLine()`.
+- [`W09E07.java`](Exercise2026/src/W09/W09E07.java): Read numbers from a file with `hasNextInt()` and `nextInt()` (a week of step counts).
+- [`W09E08.java`](Exercise2026/src/W09/W09E08.java): Read simple comma-separated records (a CSV file without quotes): skip the header, `split(",")`, `Integer.parseInt`, `Double.parseDouble` (a daily steps and km log).
+- [`W09E09.java`](Exercise2026/src/W09/W09E09.java): Never trust the data in a file: each record is checked with a small `Scanner` (`hasNextInt`, `hasNextDouble`, sensible ranges) and bad lines are skipped instead of crashing.
+- [`W09E10.java`](Exercise2026/src/W09/W09E10.java): `BufferedReader` with `FileReader`: `readLine()` returns `null` at the end of the file.
+- [`W09E11.java`](Exercise2026/src/W09/W09E11.java): `BufferedWriter` with `FileWriter`: `write()` and `newLine()`.
+- [`W09E12.java`](Exercise2026/src/W09/W09E12.java): Closing safely: try-with-resources (Java 7) and the older `try`/`finally`.
+- [`W09E13.java`](Exercise2026/src/W09/W09E13.java): Methods for files: `saveScores(file, int[])` and `loadScores(file)` (arrays + methods + files).
+- [`W09E14.java`](Exercise2026/src/W09/W09E14.java): Write a binary file with `ObjectOutputStream`: `writeUTF`, `writeInt`, `writeDouble`. The file does not label the values, so the reader must know the types and the order; the byte count is explained.
+- [`W09E15.java`](Exercise2026/src/W09/W09E15.java): Read a binary file in the same order and with the same types. Try it: read in the wrong order.
+- [`W09E16.java`](Exercise2026/src/W09/W09E16.java): Read binary records until the end: `EOFException` stops the loop.
+- [`W09E17.java`](Exercise2026/src/W09/W09E17.java): Text or binary? The same 1000 numbers saved both ways and the file sizes compared.
+- [`W09E18.java`](Exercise2026/src/W09/W09E18.java): Optional preview (objects come in Week 10): save a whole array with `writeObject` and read it back with `readObject` and a cast.
+- [`W09E19.java`](Exercise2026/src/W09/W09E19.java): The `File` class: `createNewFile`, `getName`, `getPath`, `exists`, `isFile`, `isDirectory`, `length`, `canRead`, `canWrite`, `lastModified`.
+- [`W09E20.java`](Exercise2026/src/W09/W09E20.java): Folders: `mkdirs()`, `listFiles()` (checked for `null`), `isDirectory()`.
+- [`W09E21.java`](Exercise2026/src/W09/W09E21.java): Rename and delete inside its own `w09_demo` folder: `renameTo()` and `delete()` return true or false; the program checks the result before going on.
+- [`W09E22.java`](Exercise2026/src/W09/W09E22.java): Common mistakes: `new Scanner("marks.txt")` reads the text, not the file; a missing file (check `exists()` first). Try it: open a missing file.
+- [`W09E23.java`](Exercise2026/src/W09/W09E23.java): Modern Java (good to know): `Path.of`, `Files.writeString`, `Files.readString`, `Files.readAllLines`, `Files.size` (Java 7 and 11), with a text block.
+- [`W09E24.java`](Exercise2026/src/W09/W09E24.java): Worked example: an expense tracker that appends to `expenses.csv` (always with a dot as the decimal point) and shows all expenses and the total; input checked; IPO in the comments.
+- [`W09E25.java`](Exercise2026/src/W09/W09E25.java): INTENTIONALLY FAULTY (AI agent check): saves three names and reads them back, but reads 0 names.
+- [`W09E26.java`](Exercise2026/src/W09/W09E26.java): Fix of W09E25: close the writer (try-with-resources) before reading the file.
+
+Week 09 videos (Programming Essentials)
+---------------------------------------
+Planned for Sat 5 Dec 2026. Links are added when the videos are published.
+
+| Video | Files used | Try it answer (try first) |
+|---|---|---|
+| #41 Why Files? Writing Your First Text File | W09E01 to W09E05 | to come |
+| #42 Reading Text Files: Lines, Numbers and CSV | W09E06 to W09E10 | to come |
+| #43 Buffered I/O, try-with-resources and File Methods | W09E11 to W09E13 | to come |
+| #44 Binary Files: Saving and Loading Data | W09E14 to W09E18 | to come |
+| #45 The File Class, Modern Files API and an AI Check | W09E19 to W09E23, W09E25 (AI agent: the bug), W09E26 (the fix) | to come |
+
 How to run
 ----------
 
